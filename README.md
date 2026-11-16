@@ -1,9 +1,6 @@
-```
 # LazyRoot v2.0 — адаптивный контейнер данных
 
 > *«Скажи своему процессору спасибо»*
-
----
 
 ## 🇷🇺 Русская версия
 
@@ -29,11 +26,7 @@ AES и другие стандартные алгоритмы использую
 
 LazyRoot вычисляет максимальный размер блока по формуле:
 
-```
-
 max_block_bits = round_up( sqrt( RAM_GB * 1024 ) )
-
-```
 
 И округляет до ближайшей степени двойки: **256 бит** (32 байта) или **512 бит** (64 байта).
 
@@ -122,6 +115,7 @@ restored_data = unpack_data(decrypted_buffer, restored_meta, restored_sizes, max
 
 assert restored_data == data
 print("✅ Данные успешно упакованы, зашифрованы и восстановлены!")
+
 ```
 
 Лицензия
@@ -131,8 +125,6 @@ MIT License. Подробнее в файле LICENSE.
 Автор
 
 Yaroslav Ishkov — создатель LazyRoot.
-
----
 
 🇬🇧 English Version
 
