@@ -7,6 +7,8 @@
 
 ## 🇷🇺 Русская версия
 
+**Данный проект прекратил поддержку в силу разработки нового Holmium File Explorer: https://github.com/TermoRadiactiveCat/Holmium-File-Explorer.git**
+
 ### Что это?
 
 **LazyRoot** — это протокол упаковки данных, который подстраивается под объём оперативной памяти вашего компьютера. Он разбивает файл на блоки размером, зависящим от корня из RAM, и раскладывает их по матрицам 4×4 змейкой.
@@ -133,6 +135,8 @@ Yaroslav Ishkov — создатель LazyRoot.
 ---
 
 🇬🇧 English Version
+
+**This project is no longer supported, as a new one is being developed Holmium File Explorer: https://github.com/TermoRadiactiveCat/Holmium-File-Explorer.git**
 
 What is LazyRoot?
 
